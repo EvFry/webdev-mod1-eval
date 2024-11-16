@@ -170,15 +170,20 @@ hr {
 		align-items: center;
 	}
 
+	.container {
+		display: grid;
+		grid-template-columns: 60% 40%; /* Main article takes 60%, sidebar takes 40% */
+		column-gap: 1.6rem; /* Adds space between columns */
+	}
+
 	.main-article {
-		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
 
 	.main-sidebar {
-		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
 }
+
